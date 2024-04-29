@@ -78,6 +78,7 @@ h3 {
 /*================HEADER==================*/
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .page-header .accent-color {
     color: #2e2f42;
@@ -174,8 +175,9 @@ address {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
     ),
-    url("../images/people-office\ 1.jpg");
+    url("../images/people-office.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 
 }
@@ -251,13 +253,9 @@ address {
     padding: 0px 0px 32px 0px;
     width: 264px;
     height: 380px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-.card-container {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-        0 1px 1px 0 rgba(46, 47, 66, 0.16),
-        0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;
-}
+
 .team-mate-container {
     padding-top: 32px;
     padding-bottom: 32px;
